@@ -5,56 +5,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>online delievery</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 
 <body>
     <header>
-        <nav>
-            <div class="navbar" id="logo-image">
-                <img src="logo2.png" alt="logo" id="logo">
+        <nav class="navbar">
+            <div class="nav-elements">
+                <img src="logo3.png" alt="logo" id="logo">
             </div>
-            <div class="container navbar">
-                    <a href="#"><i class="fa-sharp fa-solid fa-house"></i> 
-                    <span class="nav-menu" id="home">
-                        Home
-                    </span>
-                    </a>
-                    <a href="#"><i class="fa-solid fa-arrow-trend-up "></i> <span class="nav-menu" id="trending">Trending</span><a>
-                    <a href="#"><i class="fa-solid fa-user-group"></i> <span class="nav-menu" id="clients">clients</span></a>
-                    <a href="#"><i class="fa-sharp fa-solid fa-message"></i> <span class="nav-menu" id="contact">contact us</span></a>
+            <div class="nav-elements">
+                <ul>
+                    <li><i class="fa-solid fa-message-middle"></i>Home</li>
+                    <li>Trending</li>
+                    <li>clients</li>
+                    <li>contact us</li>
+                </ul>
             </div>
-            <div class="navbar" id="search-box">
-                <i class="fa-sharp fa-solid fa-search"></i>
-                 <input type="search" class="nav-menu" id="search_bar" placeholder="Search here">
+            <div class="container">
+                <input type="search" placeholder="Search here" id="search-bar">
             </div>
         </nav>
     </header>
-    <div id="give-height">
-
-    </div>
-    <main id="hero-section">
-        <div class="hs-items" id="welcome-txt">
-           <span class="text-items"> Get</span><span class="text-items">your facourite food</span> <span class="text-items">deliver at your home </span> 
-           <button id="order-btn">Order now</button>
+    <main>
+        <div class="food-items">
+            <span class="content" id="get">Get</span>
+            <span class="content">Your Favourite food</span>
+            <span class="content">Deliver at home</span>
+            <button>Order Now</button>
         </div>
-        <div class="hs-items" id="hs-image">
-
-            <img src="food-delivery.svg" alt="">
+        <div class="food-image">
+            <img src="food.png" alt="food-item" id="food-img">
         </div>
     </main>
-<!-- ----------------client section---------- -->
-<section id="client">
-<div class="cards"></div>
-<div class="cards"></div>
-<div class="cards"></div>
-<div class="cards"></div>
-</section>
+    <!-- food items section -->
+    <header>
+        <div class="menu">
+            <div class="food">
+                <img src="https://cdn.tarladalal.com/td_cont_img/Pesto-and-Roasted-Red-Capsicum-Bruschetta-2.JPG" alt="img"> 
+                <span class="title">Starters</span> 
+                <button class="visit-btn">Visit</button>
+            </div>
+            <div class="food" id="breakfast">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi2D8NswACEJ13qFMCKPUVOKMOU8FkWwafJg&usqp=CAU" alt="img"> 
+                <span class="title"> breakfast</span>
+                <button class="visit-btn">Visit</button>
+            </div>
+            <div class="food">
+                <img src="https://static.toiimg.com/thumb/93458067.cms?width=400&height=300&resizemode=4&imgsize=200320" alt="lunch"> 
+                <span class="title"> lunch</span>
+                <button class="visit-btn">Visit</button>
+            </div>
+            <div class="food">
+                <img src="https://c.ndtvimg.com/2022-03/jcliv9dg_shahi-paneer_625x300_15_March_22.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675" alt="dinner"> <span class="title"> Dinner</span>
+                <button class="visit-btn">Visit</button>
+            </div>
+            <div class="food">
+                <img src="https://realfood.tesco.com/media/images/RFO-1400x919-classic-chocolate-mousse-69ef9c9c-5bfb-4750-80e1-31aafbd80821-0-1400x919.jpg" alt="dessert">
+                <span class="title">dessert</span>
+                <button class="visit-btn">Visit</button>
+             </div>
+        </div>
+    </header>
+    <footer class="footer">&copy;All rights reserved to Devil @copyright</footer>
 </body>
 
 </html>
